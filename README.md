@@ -27,6 +27,8 @@ tqdm 4.55.1
 
 In this project, we built the physical layer. We first tried to record and play designated signals separately, then we tried to play and record simultaneously and finally we tried to transmit data through acoustic connections.
 
+<div align=center><img src="imgs/1.jpg" width="40%"/></div>
+
 
 
 ### Technical Details
@@ -55,6 +57,8 @@ In actual tests, we found that the last packet is easily lost, so we add some ra
 
 In this project, we replaced the speaker and microphone from project 1 with audio cables, so that the Athernet can achieve higher throughput. What's more, we add ACK functionality to improve transmission quality.
 
+<div align=center><img src="imgs/2.jpg" width="40%"/></div>
+
 
 
 ### Technical Details
@@ -82,6 +86,8 @@ The last challenge is the detection of link error, we need to choose `timeout` a
 ### Overview
 
 In this project, we built a gateway for the Athernet so that it can connect to the Internet. In order to achieve this goal, NODE2 plays a role as NAT, which translates traffic that goes though it. We simulated real network protocols such that real network functionalities can be realized with Athernet.
+
+<div align=center><img src="imgs/3.jpg" width="70%"/></div>
 
 
 
@@ -112,11 +118,13 @@ In fact, our biggest challenges showed up when we were reformatting the frame st
 
 This project enables the Athernet to provide FTP services. NODE1 will act as FTP client and NODE2 will act as a NAT that translates traffic between Athernet and the Internet.
 
+<div align=center><img src="imgs/4.jpg" width="70%"/></div>
+
 
 
 ### Technical Details
 
-At NODE1, we implemented a console for use to input FTP commands. In our implemented version, seven commands are legal: `USER, PASS, PWD, CWD, PASV, LIST, PETR` and their functionalities are listed below:
+At NODE1, we implemented a console for use to input FTP commands. In our implemented version, seven commands are legal: `USER, PASS, PWD, CWD, PASV, LIST, PETR`. Their functionalities are listed below:
 
 1. `USER`: Sends the username for authentication, the default username is `Anonymous`.
 2. `PASS`: Sends the password for authentication, the default password is null.
