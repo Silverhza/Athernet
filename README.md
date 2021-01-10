@@ -2,6 +2,10 @@
 
 Athernet is a toy network that transmits data through audio connections. We implemented most of the functionalities in the order of project 1, project 2, project 3, and project 4 (each project is based on the previous project). The detailed requirements for each project can be found in the corresponding folder.
 
+# Acknowledgement
+
+This project was completed with https://github.com/Silverhza.
+
 
 
 ## Prerequisites
