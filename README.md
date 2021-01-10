@@ -4,7 +4,7 @@ Athernet is a toy network that transmits data through audio connections. We impl
 
 
 
-## Environmental Requirements
+## Prerequisites
 
 We strongly recommend that you run the code in a conda environment with `Python 3.7.9`. The code has been tested on a Windows 10 machine.
 
