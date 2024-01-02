@@ -6,7 +6,7 @@ Athernet is a toy network that transmits data through audio connections. We impl
 
 ## Acknowledgements
 
-This project adopts from the course project of Computer Networks 2020 Fall at Shanghaitech University, and was completed with [Silverhza](https://github.com/Silverhza).
+This project adopts from the course project of Computer Networks 2020 Fall at Shanghaitech University, and was completed with [MercurialJD](https://github.com/MercurialJD).
 
 
 
