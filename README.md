@@ -2,15 +2,17 @@
 
 Athernet is a toy network that transmits data through audio connections. We implemented most of the functionalities in the order of project 1, project 2, project 3, and project 4 (each project is based on the previous project). The detailed requirements for each project can be found in the corresponding folder.
 
-# Acknowledgement
 
-This project was completed with https://github.com/Silverhza.
+
+## Acknowledgements
+
+This project adopts from the course project of Computer Networks 2020 Fall at Shanghaitech University, and was completed with [Silverhza](https://github.com/Silverhza).
 
 
 
 ## Prerequisites
 
-We strongly recommend that you run the code in a conda environment with `Python 3.7.9`. The code has been tested on a Windows 10 machine.
+We strongly recommend that you run the code in a conda environment with `Python 3.7.9`. The code has been tested both on a Windows 10 machine and on a MacOS MacBook Pro.
 
 ```bash
 bitarray 1.6.0
